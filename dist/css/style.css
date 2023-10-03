@@ -12424,7 +12424,6 @@ textarea.form-control-lg {
   right: 1.875rem;
   bottom: 1.875rem;
   z-index: 9999;
-  background: linear-gradient(to right, rgba(4, 97, 159, 0.95), rgba(0, 0, 0, 0.95));
 }
 .back-to-top i {
   color: #fff;
