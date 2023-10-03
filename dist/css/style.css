@@ -12304,8 +12304,10 @@ textarea.form-control-lg {
 .portfolio-box .portfolio-info .caption {
   text-align: center;
   color: #fff;
-  top: 2rem;
-  left: 12rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .portfolio-box .portfolio-info .caption h4 {
   text-transform: uppercase;
@@ -12419,15 +12421,15 @@ textarea.form-control-lg {
   position: fixed;
   width: 3rem;
   height: 3rem;
-  right: 1.6rem;
-  top: 1rem;
+  right: 1.875rem;
   bottom: 1.875rem;
   z-index: 9999;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-.back-to-top .arrow {
-  color: #04619F;
+.back-to-top i {
+  color: #fff;
   font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }/*# sourceMappingURL=style.css.map */
