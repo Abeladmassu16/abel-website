@@ -12424,6 +12424,7 @@ textarea.form-control-lg {
   right: 1.875rem;
   bottom: 1.875rem;
   z-index: 9999;
+  background-color: #000000;
 }
 .back-to-top i {
   color: #fff;
