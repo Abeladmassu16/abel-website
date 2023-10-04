@@ -44,6 +44,12 @@
     border: 0.55rem solid $primary;
     border-radius: 50%;
     animation: pulse-border 2.5s linear infinite;
+    @include media-breakpoint-down(lg) {
+        top: -1rem;
+        left: -1rem;
+        width: 2rem;
+        
+    }
 
     &--border-1 {
         animation-delay: 1s;

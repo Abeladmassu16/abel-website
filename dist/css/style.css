@@ -12141,6 +12141,13 @@ textarea.form-control-lg {
   border-radius: 50%;
   animation: pulse-border 2.5s linear infinite;
 }
+@media (max-width: 991.98px) {
+  .border-animation {
+    top: -1rem;
+    left: -1rem;
+    width: 2rem;
+  }
+}
 .border-animation--border-1 {
   animation-delay: 1s;
 }
